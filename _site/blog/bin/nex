@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+
+rescue() {
+  echo "Error: for command '$cmd'"
+  exit 1
+}
+
+main() {
+  local cmd="$1"
+  $cmd.sh
+}
+
+main "$@"

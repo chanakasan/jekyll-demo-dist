@@ -1,0 +1,47 @@
+
+:root {
+  --black: #0a0b0c;
+  --white: #ffffffe6;
+  --light: #ddd;
+  --dark: #1a1c20;
+  --darkgrey: #15171a;
+  --orange1: #BD5248;
+}
+
+html.dark body {
+  background: var(--dark);
+  color: var(--light);
+}
+
+html.dark a {
+  color: var(--white);
+}
+
+html.dark a:hover {
+  color: var(--orange1);
+}
+
+html.dark header nav a {
+  color: var(--white);
+
+}
+
+html.dark .page-content h1 {
+  color: var(--white);
+}
+
+html.dark .social-media nav a {
+  color: var(--white);
+}
+
+html.dark p a {
+  color: #c99065;
+}
+
+html.dark .blog-container .blog-unit h1 a {
+  color: var(--light);
+}
+
+html.dark .post-container .project-title {
+  color: var(--white);
+}
